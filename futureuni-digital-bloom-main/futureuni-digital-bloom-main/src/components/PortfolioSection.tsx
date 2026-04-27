@@ -8,13 +8,13 @@ import sorireScreenshot from '@/assets/sorire_screenshot.png';
 const categories = ['All', 'Social Media', 'AI Videos', 'Web Design', 'Video Ads'];
 
 const projects = [
-  { title: 'Social Media Campaign for TFAC', category: 'Social Media', desc: 'Strategic social media video campaign for TFAC', link: 'https://youtu.be/3PVjMcbM3wo', image: 'https://img.youtube.com/vi/3PVjMcbM3wo/maxresdefault.jpg', isVideo: true },
+  { title: 'Social Media Campaign for TFAC', category: 'Social Media', desc: 'Strategic social media video campaign for TFAC', link: 'https://www.youtube.com/shorts/3PVjMcbM3wo', image: 'https://img.youtube.com/vi/3PVjMcbM3wo/maxresdefault.jpg', isVideo: true },
   { title: 'The NextGen Africa', category: 'Web Design', desc: 'Pan-African youth innovation ecosystem platform built for NextGen leaders', link: 'https://nextgen-african-glow.lovable.app', image: tnacScreenshot },
   { title: 'Sorire E-Commerce', category: 'Web Design', desc: 'Luxury Adire fashion e-commerce platform with modern design', link: 'https://sorire.base44.app', image: sorireScreenshot },
-  { title: 'FutureUni Brand Story', category: 'Video Ads', desc: '30-second brand film showcasing our identity, color psychology and vision', link: 'https://youtu.be/cqXtXFkX5iA', image: 'https://img.youtube.com/vi/cqXtXFkX5iA/maxresdefault.jpg', isVideo: true },
-  { title: 'Crown Dove Manor Resort', category: 'Video Ads', desc: 'Promotional video showcasing the hotel spaces, rooms, kitchen and full resort experience', link: 'https://youtube.com/shorts/cFb0ozjN2j4', image: 'https://img.youtube.com/vi/cFb0ozjN2j4/maxresdefault.jpg', isVideo: true },
-  { title: 'Why God Created Us', category: 'AI Videos', desc: 'AI-generated short film exploring creation and purpose', link: 'https://youtube.com/shorts/aJoxW6hO5Xs', image: 'https://img.youtube.com/vi/aJoxW6hO5Xs/maxresdefault.jpg', isVideo: true },
-  { title: "Don't Stop Church", category: 'AI Videos', desc: 'AI-generated inspirational church short', link: 'https://youtube.com/shorts/L59qaZ4C2SU', image: 'https://img.youtube.com/vi/L59qaZ4C2SU/maxresdefault.jpg', isVideo: true },
+  { title: 'FutureUni Brand Story', category: 'Video Ads', desc: '30-second brand film showcasing our identity, color psychology and vision', link: 'https://www.youtube.com/watch?v=cqXtXFkX5iA', image: 'https://img.youtube.com/vi/cqXtXFkX5iA/maxresdefault.jpg', isVideo: true },
+  { title: 'Crown Dove Manor Resort', category: 'Video Ads', desc: 'Promotional video showcasing the hotel spaces, rooms, kitchen and full resort experience', link: 'https://www.youtube.com/shorts/cFb0ozjN2j4', image: 'https://img.youtube.com/vi/cFb0ozjN2j4/maxresdefault.jpg', isVideo: true },
+  { title: 'Why God Created Us', category: 'AI Videos', desc: 'AI-generated short film exploring creation and purpose', link: 'https://www.youtube.com/shorts/aJoxW6hO5Xs', image: 'https://img.youtube.com/vi/aJoxW6hO5Xs/maxresdefault.jpg', isVideo: true },
+  { title: "Don't Stop Church", category: 'AI Videos', desc: 'AI-generated inspirational church short', link: 'https://www.youtube.com/shorts/L59qaZ4C2SU', image: 'https://img.youtube.com/vi/L59qaZ4C2SU/maxresdefault.jpg', isVideo: true },
 ];
 
 const gradients = [
