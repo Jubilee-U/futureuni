@@ -72,8 +72,12 @@ const Footer = () => {
                 </a>
               </li>
               <li className="flex items-center gap-2 text-sm text-muted-foreground">
+                <MapPin size={14} /> Cardiff, United Kingdom
+              </li>
+<li className="flex items-center gap-2 text-sm text-muted-foreground">
                 <MapPin size={14} /> Benin City, Nigeria
               </li>
+
             </ul>
             <div className="flex gap-2 mt-4">
               {[

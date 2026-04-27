@@ -3,7 +3,7 @@ import { Menu, X } from 'lucide-react';
 import ThemeToggle from './ThemeToggle';
 import logoImg from '@/assets/Future_Uni_Logo.png';
 
-const WA_URL = 'https://wa.me/2347056213076?text=Hi%20FutureUni!%20I%20just%20visited%20your%20website%20and%20I%27m%20interested%20in%20your%20services.%20I%27d%20love%20to%20discuss%20my%20project.';
+const WA_URL = 'https://wa.me/447538598770?text=Hi%20FutureUni!%20I%20just%20visited%20your%20website%20and%20I%27m%20interested%20in%20your%20services.%20I%27d%20love%20to%20discuss%20my%20project.';
 
 const navLinks = [
   { label: 'Services', target: 'services' },

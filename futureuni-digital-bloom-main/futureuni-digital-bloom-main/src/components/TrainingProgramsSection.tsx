@@ -9,7 +9,7 @@ const programs = [
   { icon: Layout, name: 'UI/UX Design', cost: '₦100,000' },
 ];
 
-const WA_URL = 'https://wa.me/2347056213076?text=Hi%20FutureUni!%20I%27m%20interested%20in%20your%20training%20programs.%20Can%20I%20get%20more%20details%3F';
+const WA_URL = 'https://wa.me/447538598770?text=Hi%20FutureUni!%20I%27m%20interested%20in%20your%20training%20programs.%20Can%20I%20get%20more%20details%3F';
 
 const TrainingProgramsSection = () => {
   const { ref, visible } = useScrollReveal();

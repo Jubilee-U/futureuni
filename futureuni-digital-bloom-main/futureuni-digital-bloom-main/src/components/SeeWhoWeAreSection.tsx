@@ -2,7 +2,7 @@ import { ArrowRight } from 'lucide-react';
 import HexagonBackground from './HexagonBackground';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
 
-const WA_URL = 'https://wa.me/2347056213076?text=Hi%20FutureUni!%20I%20just%20watched%20your%20brand%20video%20and%20I%27m%20interested%20in%20your%20services.';
+const WA_URL = 'https://wa.me/447538598770?text=Hi%20FutureUni!%20I%20just%20watched%20your%20brand%20video%20and%20I%27m%20interested%20in%20your%20services.';
 
 const SeeWhoWeAreSection = () => {
   const { ref, visible } = useScrollReveal();

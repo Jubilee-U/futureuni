@@ -4,8 +4,8 @@ import HexagonBackground from './HexagonBackground';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
 import logoImg from '@/assets/Future_Uni_Logo.png';
 
-const WA_START = 'https://wa.me/2347056213076?text=Hi%20FutureUni!%20I%27d%20like%20to%20start%20a%20project%20with%20you.';
-const WA_AFTER = 'https://wa.me/2347056213076?text=Hi%20FutureUni!%20I%20just%20submitted%20my%20project%20brief%20on%20your%20website.';
+const WA_START = 'https://wa.me/447538598770?text=Hi%20FutureUni!%20I%27d%20like%20to%20start%20a%20project%20with%20you.';
+const WA_AFTER = 'https://wa.me/447538598770?text=Hi%20FutureUni!%20I%20just%20submitted%20my%20project%20brief%20on%20your%20website.';
 const FORM_ENDPOINT = 'https://formspree.io/f/xpqklblq';
 
 const SERVICES = ['Social Media Design', 'Sales / Landing Page', 'Web Design', 'Video Ads'] as const;
@@ -292,11 +292,22 @@ const StartProjectSection = () => {
               </li>
               <li className="flex items-center gap-3 text-foreground">
                 <Phone size={16} className="text-primary shrink-0" />
-                <a href="tel:+2347056213076" className="hover:text-primary transition-colors">+234 705 621 3076</a>
+                <a href="tel:+447538598770" className="hover:text-primary transition-colors">+447 538 598 770</a>
+
               </li>
+<li className="flex items-center gap-3 text-foreground">
+                <Phone size={16} className="text-primary shrink-0" />
+                <a href="tel:+2347056213076" className="hover:text-primary transition-colors">+234 705 621 3076</a>
+
+              </li>
+
               <li className="flex items-center gap-3 text-foreground">
                 <MapPin size={16} className="text-primary shrink-0" />
-                Benin City, Nigeria
+                Cardiff, United Kingdom
+              </li>
+   <li className="flex items-center gap-3 text-foreground">
+                <MapPin size={16} className="text-primary shrink-0" />Benin City, Nigeria
+                
               </li>
             </ul>
             <p className="mt-6 text-xs text-muted-foreground">We typically respond within 24 hours</p>

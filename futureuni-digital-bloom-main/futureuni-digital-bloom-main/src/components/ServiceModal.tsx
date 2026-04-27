@@ -17,7 +17,7 @@ const iconMap: Record<string, React.ElementType> = {
 };
 
 const serviceWaLinks: Record<string, string> = {
-  'Social Media Design': 'https://wa.me/2347056213076?text=Hi%20FutureUni!%20I%27m%20interested%20in%20your%20Social%20Media%20Design%20service.%20I%27d%20love%20to%20discuss%20my%20project.',
+  'Social Media Design': 'https://wa.me/447538598770?text=Hi%20FutureUni!%20I%27m%20interested%20in%20your%20Social%20Media%20Design%20service.%20I%27d%20love%20to%20discuss%20my%20project.',
   'Sales / Landing Page': 'https://wa.me/2347056213076?text=Hi%20FutureUni!%20I%27m%20interested%20in%20your%20Sales%20and%20Landing%20Page%20service.%20I%27d%20love%20to%20discuss%20my%20project.',
   'Web Design': 'https://wa.me/2347056213076?text=Hi%20FutureUni!%20I%27m%20interested%20in%20your%20Web%20Design%20service.%20I%27d%20love%20to%20discuss%20my%20project.',
   'Video Ads': 'https://wa.me/2347056213076?text=Hi%20FutureUni!%20I%27m%20interested%20in%20your%20Video%20Ads%20service.%20I%27d%20love%20to%20discuss%20my%20project.',

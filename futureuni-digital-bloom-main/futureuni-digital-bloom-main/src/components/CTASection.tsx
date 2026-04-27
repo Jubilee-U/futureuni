@@ -2,8 +2,8 @@ import { ArrowRight, MessageCircle, Rocket } from 'lucide-react';
 import HexagonBackground from './HexagonBackground';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
 
-const WA_START = 'https://wa.me/2347056213076?text=Hi%20FutureUni!%20I%20just%20visited%20your%20website%20and%20I%27m%20ready%20to%20start%20my%20project.%20Let%27s%20talk!';
-const WA_CHAT = 'https://wa.me/2347056213076?text=Hi%20FutureUni!%20I%20just%20visited%20your%20website%20and%20I%27d%20love%20to%20chat%20about%20my%20project.';
+const WA_START = 'https://wa.me/447538598770?text=Hi%20FutureUni!%20I%20just%20visited%20your%20website%20and%20I%27m%20ready%20to%20start%20my%20project.%20Let%27s%20talk!';
+const WA_CHAT = 'https://wa.me/447538598770?text=Hi%20FutureUni!%20I%20just%20visited%20your%20website%20and%20I%27d%20love%20to%20chat%20about%20my%20project.';
 
 const CTASection = () => {
   const { ref, visible } = useScrollReveal();
