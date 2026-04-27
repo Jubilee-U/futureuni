@@ -68,9 +68,15 @@ const Footer = () => {
               </li>
               <li>
                 <a href="tel:+2347056213076" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+                  <Phone size={14} /> +447 538 598 770
+                </a>
+              </li>
+<li>
+                <a href="tel:+2347056213076" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
                   <Phone size={14} /> +234 705 621 3076
                 </a>
               </li>
+
               <li className="flex items-center gap-2 text-sm text-muted-foreground">
                 <MapPin size={14} /> Cardiff, United Kingdom
               </li>

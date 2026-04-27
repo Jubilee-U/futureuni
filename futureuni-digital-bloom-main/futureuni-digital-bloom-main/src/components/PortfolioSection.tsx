@@ -15,7 +15,7 @@ const projects = [
   { title: 'FutureUni Brand Story', category: 'Video Ads', desc: '30-second brand film showcasing our identity, color psychology and vision', link: 'https://youtu.be/cqXtXFkX5iA', image: 'https://img.youtube.com/vi/cqXtXFkX5iA/maxresdefault.jpg', isVideo: true },
   { title: 'Crown Dove Manor Resort', category: 'Video Ads', desc: 'Promotional video showcasing the hotel spaces, rooms, kitchen and full resort experience', link: 'https://youtube.com/shorts/cFb0ozjN2j4', image: 'https://img.youtube.com/vi/cFb0ozjN2j4/maxresdefault.jpg', isVideo: true },
   { title: 'Why God Created Us', category: 'AI Videos', desc: 'AI-generated short film exploring creation and purpose', link: 'https://youtube.com/shorts/aJoxW6hO5Xs', image: 'https://img.youtube.com/vi/aJoxW6hO5Xs/maxresdefault.jpg', isVideo: true },
-  { title: "Don't Stop Church", category: 'AI Videos', desc: 'AI-generated inspirational church short', link: 'https://youtube.com/shorts/cFb0ozjN2j4', image: 'https://img.youtube.com/vi/cFb0ozjN2j4/maxresdefault.jpg', isVideo: true },
+   { title: "Don't Stop Church", category: 'AI Videos', desc: 'AI-generated inspirational church short', link: 'https://youtube.cm/shorts/cFb0ozjN2j4', image: 'https://img.youtube.com/vi/cFb0ozjN2j4/maxresdefault.jpg', isVideo: true },
 ];
 
 const gradients = [

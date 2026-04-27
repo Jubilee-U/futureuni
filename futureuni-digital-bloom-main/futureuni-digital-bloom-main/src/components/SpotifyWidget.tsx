@@ -11,7 +11,7 @@ const SpotifyWidget = () => {
   return (
     <div className="fixed bottom-6 right-4 z-[9999] sm:bottom-4">
       <div
-        className="relative rounded-xl overflow-hidden"
+        onClick={() => window.open(`https://open.spotify.com/playlist/${playlistId}`, '_blank')}
         style={{
           width: window.innerWidth < 640 ? 200 : 260,
           height: window.innerWidth < 640 ? 56 : 64,

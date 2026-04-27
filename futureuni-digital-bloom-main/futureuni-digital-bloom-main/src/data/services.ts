@@ -75,19 +75,19 @@ export const services: Service[] = [
     description: 'Ready to go live with a beautiful website that sells?',
     offers: [
       {
-        name: 'Business Launch',
-        ng: { label: 'Business Launch', price: '₦300,000', features: [{ text: '3–5 page website' }, { text: 'Mobile responsive' }, { text: 'Basic SEO setup' }, { text: '1 revision' }] },
-        usd: { label: 'Business Launch', price: '$400', features: [{ text: '3–5 page website' }, { text: 'Responsive design' }, { text: 'Basic SEO' }] },
+        name: 'Starter Site',
+        ng: { label: 'Starter Site', , features: [{ text: '3–5 page website' }, { text: 'Mobile responsive' }, { text: 'Basic SEO setup' }, { text: '1 revision' }] },
+        usd: { label: 'Starter Site', price: '$400', features: [{ text: '3–5 page website' }, { text: 'Responsive design' }, { text: 'Basic SEO' }] },
       },
       {
         name: 'Growth Website',
-        ng: { label: 'Growth Website', price: '₦350,000', features: [{ text: '5–7 pages' }, { text: 'SEO optimization' }, { text: 'Speed optimization' }, { text: '2 revisions' }] },
-        usd: { label: 'Growth Website', price: '$600', features: [{ text: '5–7 pages' }, { text: 'SEO + speed optimization' }, { text: '2 revisions' }] },
+        ng: { label: ' Growth Site', '₦850,000', features: [{ text: '5–7 pages' }, { text: 'SEO optimization' }, { text: 'Speed optimization' }, { text: '2 revisions' }] },
+        usd: { label: ' Growth Site', price: '$600', features: [{ text: '5–7 pages' }, { text: 'SEO + speed optimization' }, { text: '2 revisions' }] },
       },
       {
-        name: 'Premium Authority Website',
+        name: ' Premium Site',
         popular: true,
-        ng: { label: 'Premium Authority Website', price: '₦400,000', features: [{ text: '8–10 pages' }, { text: 'Full brand integration' }, { text: 'Advanced UI/UX' }, { text: 'Blog/eCommerce ready' }, { text: '3 revisions + support' }] },
+        ng: { label: ' Premium Site',  price: '₦999,999', features: [{ text: '8–10 pages' }, { text: 'Full brand integration' }, { text: 'Advanced UI/UX' }, { text: 'Blog/eCommerce ready' }, { text: '3 revisions + support' }] },
         usd: { label: 'Premium Authority', price: '$900', features: [{ text: '8–10 pages' }, { text: 'Advanced UI/UX' }, { text: 'Blog/eCommerce ready' }, { text: 'Priority support' }] },
       },
     ],
