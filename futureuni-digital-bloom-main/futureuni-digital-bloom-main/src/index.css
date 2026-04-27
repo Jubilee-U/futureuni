@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 230 33% 96%;
+    --foreground: 233 90% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 233 90% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 233 90% 12%;
+    --primary: 244 70% 64%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 233 90% 12%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 230 25% 90%;
+    --muted-foreground: 233 15% 40%;
+    --accent: 330 80% 92%;
+    --accent-foreground: 233 90% 12%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 230 20% 88%;
+    --input: 230 20% 88%;
+    --ring: 244 70% 64%;
+    --radius: 0.5rem;
+    --hex-color: 233 30% 88%;
+    --hex-glow: 244 70% 64%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 236 100% 11%;
+    --foreground: 0 0% 100%;
+    --card: 236 80% 14%;
+    --card-foreground: 0 0% 100%;
+    --popover: 236 80% 14%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 244 70% 64%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 236 60% 18%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 236 50% 18%;
+    --muted-foreground: 233 15% 65%;
+    --accent: 330 80% 92%;
+    --accent-foreground: 233 90% 12%;
+    --border: 236 50% 20%;
+    --input: 236 50% 20%;
+    --ring: 244 70% 64%;
+    --hex-color: 244 70% 64%;
+    --hex-glow: 244 70% 64%;
+
+    --sidebar-background: 236 100% 9%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 244 70% 64%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 236 60% 14%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 236 50% 16%;
+    --sidebar-ring: 244 70% 64%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Inter', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-gradient-primary {
+    background: linear-gradient(135deg, #6c63e1 0%, #a78bfa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .glow-primary {
+    box-shadow: 0 0 20px rgba(108, 99, 225, 0.4);
+  }
+  .glow-accent {
+    box-shadow: 0 0 20px rgba(250, 216, 232, 0.5);
+  }
+
+  /* Section backgrounds */
+  .section-odd {
+    background: #ffffff;
+  }
+  .section-even {
+    background: #f0f2f8;
+  }
+  .dark .section-odd {
+    background: linear-gradient(180deg, #000539 0%, #020847 100%);
+  }
+  .dark .section-even {
+    background: linear-gradient(180deg, #000539 0%, #020847 100%);
+  }
+
+  /* CTA / Ready to grow section */
+  .section-cta {
+    background: linear-gradient(135deg, #f0f2f8 0%, #e8e4f8 50%, #ede9f8 100%);
+  }
+  .dark .section-cta {
+    background: linear-gradient(135deg, #000539 0%, #1a1060 50%, #0d0a3a 100%);
+  }
+
+  /* Footer */
+  .section-footer {
+    background: #f0f2f8;
+  }
+  .dark .section-footer {
+    background: linear-gradient(180deg, #030540 0%, #000539 100%);
+  }
+
+  /* Form select dropdowns — dark mode */
+  .dark select,
+  .dark select option {
+    background-color: #0d1545;
+    color: #ffffff;
+  }
+  .dark select option:hover,
+  .dark select option:checked {
+    background-color: #6c63e1;
+    color: #ffffff;
+  }
+
+  /* Form select dropdowns — light mode */
+  select option:hover,
+  select option:checked {
+    background-color: #6c63e1;
+    color: #ffffff;
+  }
+}
+
+@keyframes float1 {
+  0%, 100% { transform: translateY(0px) rotate(2deg); }
+  50% { transform: translateY(-15px) rotate(-1deg); }
+}
+@keyframes float2 {
+  0%, 100% { transform: translateY(0px) rotate(-2deg); }
+  50% { transform: translateY(-20px) rotate(2deg); }
+}
+@keyframes float3 {
+  0%, 100% { transform: translateY(0px) rotate(1deg); }
+  50% { transform: translateY(-12px) rotate(-2deg); }
+}
+@keyframes pulse-bar {
+  0%, 100% { transform: scaleY(0.4); }
+  50% { transform: scaleY(1); }
+}
+@keyframes scale-fade-in {
+  0% { opacity: 0; transform: scale(0.9); }
+  100% { opacity: 1; transform: scale(1); }
+}
+@keyframes wa-bounce {
+  0%, 85%, 100% { transform: translateY(0); }
+  90% { transform: translateY(-6px); }
+  95% { transform: translateY(2px); }
+}
