@@ -69,26 +69,26 @@ export const services: Service[] = [
       },
     ],
   },
-  {ss		
+  {
     icon: 'Monitor',
     name: 'Web Design',
     description: 'Ready to go live with a beautiful website that sells?',
     offers: [
       {
         name: 'Starter Site',
-        ng: {  [{ text: '3–5 page website' }, { text: 'Mobile responsive' }, { text: 'Basic SEO setup' }, { text: '1 revision' }] },
+        ng: { label: 'Starter Site', price: '₦550,000', features: [{ text: '3–5 page website' }, { text: 'Mobile responsive' }, { text: 'Basic SEO setup' }, { text: '1 revision' }] },
         usd: { label: 'Starter Site', price: '$400', features: [{ text: '3–5 page website' }, { text: 'Responsive design' }, { text: 'Basic SEO' }] },
       },
       {
-        name: 'Growth Website',
-        ng: { label: ' Growth Site', '₦850,000', features: [{ text: '5–7 pages' }, { text: 'SEO optimization' }, { text: 'Speed optimization' }, { text: '2 revisions' }] },
-        usd: { label: ' Growth Site', price: '$600', features: [{ text: '5–7 pages' }, { text: 'SEO + speed optimization' }, { text: '2 revisions' }] },
+        name: 'Growth Site',
+        ng: { label: 'Growth Site', price: '₦850,000', features: [{ text: '5–7 pages' }, { text: 'SEO optimization' }, { text: 'Speed optimization' }, { text: '2 revisions' }] },
+        usd: { label: 'Growth Site', price: '$600', features: [{ text: '5–7 pages' }, { text: 'SEO + speed optimization' }, { text: '2 revisions' }] },
       },
       {
-        name: ' Premium Site',
+        name: 'Premium Site',
         popular: true,
-        ng: { label: ' Premium Site',  price: '₦999,999', features: [{ text: '8–10 pages' }, { text: 'Full brand integration' }, { text: 'Advanced UI/UX' }, { text: 'Blog/eCommerce ready' }, { text: '3 revisions + support' }] },
-        usd: { label: 'Premium Authority', price: '$900', features: [{ text: '8–10 pages' }, { text: 'Advanced UI/UX' }, { text: 'Blog/eCommerce ready' }, { text: 'Priority support' }] },
+        ng: { label: 'Premium Site', price: '₦999,999', features: [{ text: '8–10 pages' }, { text: 'Full brand integration' }, { text: 'Advanced UI/UX' }, { text: 'Blog/eCommerce ready' }, { text: '3 revisions + support' }] },
+        usd: { label: 'Premium Site', price: '$900', features: [{ text: '8–10 pages' }, { text: 'Advanced UI/UX' }, { text: 'Blog/eCommerce ready' }, { text: 'Priority support' }] },
       },
     ],
   },
