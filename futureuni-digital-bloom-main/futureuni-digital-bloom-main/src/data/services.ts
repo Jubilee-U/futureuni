@@ -69,14 +69,14 @@ export const services: Service[] = [
       },
     ],
   },
-  {
+  {ss		
     icon: 'Monitor',
     name: 'Web Design',
     description: 'Ready to go live with a beautiful website that sells?',
     offers: [
       {
         name: 'Starter Site',
-        ng: { label: 'Starter Site', , features: [{ text: '3–5 page website' }, { text: 'Mobile responsive' }, { text: 'Basic SEO setup' }, { text: '1 revision' }] },
+        ng: { label: 'Starter Site', price: '₦550,000', features: [{ text: '3–5 page website' }, { text: 'Mobile responsive' }, { text: 'Basic SEO setup' }, { text: '1 revision' }] },
         usd: { label: 'Starter Site', price: '$400', features: [{ text: '3–5 page website' }, { text: 'Responsive design' }, { text: 'Basic SEO' }] },
       },
       {
