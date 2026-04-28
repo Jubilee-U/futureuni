@@ -4,6 +4,7 @@ import HexagonBackground from './HexagonBackground';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
 import tnacScreenshot from '@/assets/FutureUni_web_SS.png';
 import sorireScreenshot from '@/assets/sorire_screenshot.png';
+//
 
 const categories = ['All', 'Social Media', 'AI Videos', 'Web Design', 'Video Ads'];
 
@@ -84,6 +85,7 @@ const PortfolioSection = () => {
               ) : (
                 <div className={`absolute inset-0 bg-gradient-to-br ${gradients[i % gradients.length]}`} />
               )}
+		//
 
               {/* Always visible content */}
               <div className="relative z-10 flex-1 flex items-center justify-center">
