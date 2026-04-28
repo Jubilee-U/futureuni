@@ -64,7 +64,7 @@ const PortfolioSection = () => {
         {/* Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {filtered.map((project, i) => (
-            
+            <a
               key={project.title}
               href={project.link || '#'}
               target={project.link ? '_blank' : undefined}
