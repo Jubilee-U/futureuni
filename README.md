@@ -2,7 +2,7 @@
 
 **Closing the Digital Gap** — a digital media agency website helping brands grow through powerful digital solutions, from stunning designs to high-converting websites and viral video content.
 
-🔗 **Live Demio futureyni.org
+🔗 **Live Demo futureuni.org
 
 ---
 
